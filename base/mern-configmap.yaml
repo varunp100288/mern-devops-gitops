@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mern-config
+  namespace: mern-app
+data:
+  DB_HOST: "mern-prod-mysql.cd0moygaklri.ap-south-1.rds.amazonaws.com"
+  DB_NAME: "testdb"

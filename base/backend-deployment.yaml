@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: mern-backend
-          image: 834732843065.dkr.ecr.ap-south-1.amazonaws.com/mern-devops-backend:306b7dea491829ad238b6e7061d223c20109f0d9
+          image: 834732843065.dkr.ecr.ap-south-1.amazonaws.com/mern-devops-backend:6dae9b231192ab55c304c3a26f7aefab04e146a3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
